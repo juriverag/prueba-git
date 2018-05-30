@@ -1,4 +1,4 @@
-/* Unidades de color.
+﻿/* Unidades de color.
 	Hay 5 formas de indicar colores en CSS:
 	- Palabras clave.
 	- Colores del sistema.
@@ -80,4 +80,12 @@ h4 {
 */
 h5 {
 	color : rgb(50%, 20%, 10%);
+}
+
+p {
+	background : #a0a0a8;
+}
+
+a {
+	color : #aa4000
 }
