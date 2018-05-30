@@ -85,6 +85,8 @@ h5 {
 p {
 	background : #a0a0a8;
 	font-size : 20px;
+	text-transform : uppercase;
+	letter-spacing : 5px;
 }
 
 a {
