@@ -1,0 +1,83 @@
+/* Unidades de color.
+	Hay 5 formas de indicar colores en CSS:
+	- Palabras clave.
+	- Colores del sistema.
+	- RGB Hexadecimal.
+	- RGB Numérico o Decimal.
+	- RGB Porcentual.
+*/
+
+/*	Palabras clave.
+	
+	Hay hasta 17 para colores predefinidos:
+	
+	aqua		black
+	green		red
+	white		blue
+	yellow		orange
+	purple
+	etc.
+	
+	No son muy usadas por no ofrecer mucho control/flexibilidad en los colores
+	logrados.
+*/
+h1 {
+	color : aqua;
+}
+
+/*	RGB HEX
+	
+	Usa valores hexadecimales para determinar el color con base en sus componentes
+	R (rojo), G (verde) y B (azul).
+	
+	En CSS se expresan los valores como sigue:
+	
+	#RRGGBB
+	
+	Con valores de 0 a F para cada dígito y dos dígitos para cada componente RGB.
+	
+	Esta es la forma máss usada para manejar colores, junto co el RGB decimal.
+*/
+h2 {
+	color : #31A3EF;
+}
+
+/*	RGB Numérico o Decimal.
+	
+	Utiliza valores de 0 a 255 para componentes R, G y B.
+	
+	Se usa la función como valor de la propiedad de color en las reglas CSS:
+	
+	rgb(valorR, valorG, valorB)
+	
+	De esta forma tenemos más control y logramos colores más específicos, aunque no es
+	tan práctica.
+	
+	La ventaja del RGB decimal, es que permite definir la componente alfa para
+	valores de transparencia:
+	
+	rgba(49, 163, 239, 0.5)
+	
+	Alfa va de 0 (transparencia total, no se ve nada) a 1 (cero transparencia), con
+	decimales. Útil para el diseño, en cajas, contenedores, etc.
+	
+	Es la forma más común de manejar colores junto con los RGB hexadecimales.
+*/
+h3 {
+	color : rgb(53, 131, 44);
+}
+
+h4 {
+	color : rgba(49, 163, 239, 0.5);
+}
+
+/*	RGB Porcentual.
+	
+	Similar al RGB decimal, pero en la función se especifican porcentajes para las
+	compnentes en vez de números:
+	
+	rgb(20%, 30%, 10%);
+*/
+h5 {
+	color : rgb(50%, 20%, 10%);
+}
