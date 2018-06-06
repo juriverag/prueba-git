@@ -41,6 +41,8 @@ h1 {
 h2 {
 	color : #31A3EF;
 	letter-spacing : 2px;
+	margin : 15px 0;
+	text-transform : uppercase;
 }
 
 /*	RGB Numérico o Decimal.
