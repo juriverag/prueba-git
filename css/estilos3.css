@@ -23,6 +23,7 @@
 */
 h1 {
 	color : aqua;
+	letter-spacing : 5px;
 	margin : 20px 0;
 	text-shadow : 2px 2px 5px black;
 }
@@ -72,6 +73,7 @@ h2 {
 h3 {
 	color : rgb(53, 131, 44);
 	margin : 10px 0;
+	letter-spacing : 4px;
 	text-shadow : 2px 2px 5px black;
 }
 
