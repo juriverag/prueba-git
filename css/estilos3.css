@@ -44,6 +44,7 @@ h2 {
 	letter-spacing : 2px;
 	margin : 15px 0;
 	text-transform : uppercase;
+	text-shadow : 2px 2px 5px black;
 }
 
 /*	RGB Numérico o Decimal.
@@ -69,6 +70,7 @@ h2 {
 */
 h3 {
 	color : rgb(53, 131, 44);
+	text-shadow : 2px 2px 5px black;
 }
 
 h4 {
